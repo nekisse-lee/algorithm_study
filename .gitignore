@@ -1,92 +1,119 @@
 
-# Created by https://www.gitignore.io/api/intellij+all
-# Edit at https://www.gitignore.io/?templates=intellij+all
+# https://www.gitignore.io/api/macos,intellij+all에 의해 생성
+# https://www.gitignore.io/?templates=macos,intellij+all에서 편집
 
-### Intellij+all ###
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
-# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+### Intellij + all ###
+# JetBrains IDE : IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio 및 WebStorm
+# 참조 : https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
-# User-specific stuff
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/**/usage.statistics.xml
-.idea/**/dictionaries
-.idea/**/shelf
+# 사용자 별 물건
+.idea / ** / workspace.xml
+.idea / ** / tasks.xml
+.idea / ** / usage.statistics.xml
+.idea / ** / 사전
+.idea / ** / shelf
 
-# Generated files
-.idea/**/contentModel.xml
+# 생성 된 파일
+.idea / ** / contentModel.xml
 
-# Sensitive or high-churn files
-.idea/**/dataSources/
-.idea/**/dataSources.ids
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
-.idea/**/dbnavigator.xml
+# 민감하거나 높은 파일
+.idea / ** / dataSources /
+.idea / ** / dataSources.ids
+.idea / ** / dataSources.local.xml
+.idea / ** / sqlDataSources.xml
+.idea / ** / dynamic.xml
+.idea / ** / uiDesigner.xml
+.idea / ** / dbnavigator.xml
 
 # Gradle
-.idea/**/gradle.xml
-.idea/**/libraries
+.idea / ** / gradle.xml
+.idea / ** / 라이브러리
 
-# Gradle and Maven with auto-import
-# When using Gradle or Maven with auto-import, you should exclude module files,
-# since they will be recreated, and may cause churn.  Uncomment if using
-# auto-import.
-# .idea/modules.xml
-# .idea/*.iml
-# .idea/modules
+자동 가져 오기 기능이있는 Gradle 및 Maven
+# 자동 가져 오기와 함께 Gradle 또는 Maven을 사용하는 경우 모듈 파일을 제외해야합니다.
+# 재생성되므로 이탈이 발생할 수 있습니다. 사용중인 경우 주석 해제
+# 자동 가져 오기.
+# .idea / modules.xml
+# .idea / *. iml
+#. 아이디어 / 모듈
+# * .iml
+# * .ipr
 
 # CMake
-cmake-build-*/
+cmake-build-* /
 
-# Mongo Explorer plugin
-.idea/**/mongoSettings.xml
+# 몽고 탐색기 플러그인
+.idea / ** / mongoSettings.xml
 
-# File-based project format
-*.iws
+# 파일 기반 프로젝트 형식
+* .iws
 
 # IntelliJ
-out/
+아웃/
 
-# mpeltonen/sbt-idea plugin
-.idea_modules/
+# mpeltonen / sbt-idea 플러그인
+.idea_modules /
 
-# JIRA plugin
+# JIRA 플러그인
 atlassian-ide-plugin.xml
 
-# Cursive Clojure plugin
-.idea/replstate.xml
+# 필기체 Clojure 플러그인
+.idea / replstate.xml
 
-# Crashlytics plugin (for Android Studio and IntelliJ)
+# Crashlytics 플러그인 (Android Studio 및 IntelliJ 용)
 com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
-# Editor-based Rest Client
-.idea/httpRequests
+# 에디터 기반 레스트 클라이언트
+.idea / http 요청
 
-# Android studio 3.1+ serialized cache file
-.idea/caches/build_file_checksums.ser
+# Android studio 3.1+ 직렬화 된 캐시 파일
+.idea / caches / build_file_checksums.ser
 
-# JetBrains templates
-**___jb_tmp___
+### Intellij + 모든 패치 ###
+# 전체 .idea 폴더와 모든 .iml 파일을 무시합니다
+# https://github.com/joeblau/gitignore.io/issues/186 및 https://github.com/joeblau/gitignore.io/issues/360 참조
 
-### Intellij+all Patch ###
-# Ignores the whole .idea folder and all .iml files
-# See https://github.com/joeblau/gitignore.io/issues/186 and https://github.com/joeblau/gitignore.io/issues/360
+.생각/
 
-.idea/
+# 이유 : https://github.com/joeblau/gitignore.io/issues/186#issuecomment-249601023
 
-# Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-249601023
-
-*.iml
+* .iml
 modules.xml
-.idea/misc.xml
-*.ipr
+.idea / misc.xml
+* .ipr
 
-# Sonarlint plugin
-.idea/sonarlint
+# Sonarlint 플러그인
+.idea / sonarlint
 
-# End of https://www.gitignore.io/api/intellij+all
+### 맥 OS ###
+# 일반
+.DS_Store
+. 애플 더블
+.LSOverride
+
+# 아이콘은 \ r로 끝나야합니다
+상
+
+# 썸네일
+._ *
+
+# 볼륨의 루트에 나타날 수있는 파일
+.DocumentRevisions-V100
+.fseventsd
+스포트라이트 -V100
+. 임시 항목
+휴지통
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# 원격 AFP 공유에서 잠재적으로 생성 된 디렉토리
+.AppleDB
+.AppleDesktop
+네트워크 휴지통 폴더
+임시 아이템
+.apdisk
+
+# https://www.gitignore.io/api/macos,intellij+all의 끝

@@ -1,3 +1,5 @@
+package baekjoon;
+
 import java.util.Scanner;
 
 public class _2839 {
