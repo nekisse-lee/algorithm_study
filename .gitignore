@@ -117,3 +117,4 @@ modules.xml
 .apdisk
 
 # https://www.gitignore.io/api/macos,intellij+all의 끝
+/.gradle/
