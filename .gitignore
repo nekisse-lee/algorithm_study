@@ -236,5 +236,6 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-
+**.lock
+**.bin
 # End of https://www.gitignore.io/api/macos,intellij+all
